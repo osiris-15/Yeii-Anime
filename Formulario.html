@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="css/estilo.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-color-2 fixed-top navbar-expand-md" aria-label="breadcrumb">
+            <div><img class="logo" src="img/4_estrellas.png" alt=""></div>
+            <a class="navbar-brand" href="index.html"><h2>Yeii-Anime</h2></a>
+            <button class="navbar-toggler m-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">III</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto breadcrumb">
+                  <li class="nav-item active breadcrumb-item" aria-current="page">
+                    <a class="nav-link color-item m-3" href="./index.html">Series</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link color-item m-3" href="./ovas.html">Ovas</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link color-item m-3" href="peliculas.html" tabindex="-1" aria-disabled="true">Películas</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link color-item m-3" href="Formulario.html" tabindex="-1" aria-disabled="true">Déjanos tu comentario</a>
+                  </li>
+                </ul>
+                <form class="form-inline" style="display: flex;">
+                  <input class="form-control m-3" type="search" placeholder="Buscar..." aria-label="Search">
+                  <button class="btn btn-warning m-3" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+        
+        <div class="container-fluid">
+            <div class="jumbotron-1 mb-5" style="margin-top: 124px;">
+                <h5 class="txt-color">Deja tu comentario aquí..</h5>
+            </div>
+        </div>
+            <form class="container">
+              <div class="form-row">
+                <div class="mb-3 form-group col-sm-6">
+                  <label for="nombre" class="form-label"><p class="color-label">Nombre</p></label>
+                  <input type="text" class="form-control" id="nombre" placeholder="nombre">
+                </div>
+                <div class="mb-3 form-group col-sm-6">
+                  <label for="Apellido" class="form-label"><p class="color-label">Apellido</p></label>
+                  <input type="text" class="form-control" id="Apellido" placeholder="Apellido">
+                </div>
+                <div class="mb-3 form-group col-sm-6">
+                  <label for="correo" class="form-label"><p class="color-label">Dirección de correo</p></label>
+                  <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="mb-3 form-group col-sm-6">
+                  <label for="exampleFormControlInput3" class="form-label"><p class="color-label">Contenido Sugerido</p></label>
+                  <select class="form-select form-control" aria-label="Default select example">
+                    <option selected>Selecciona tu contenido favorito</option>
+                    <option value="1">Serie</option>
+                    <option value="2">Ova</option>
+                    <option value="3">Película</option>
+                  </select>
+                </div>
+                <div class="mb-3 col-sm-6">
+                  <label for="Comentario" class="form-label"><p class="color-label">Comentario</p></label>
+                  <textarea class="form-control" id="Comentario" rows="3"></textarea>
+                </div>
+                <div class="mb-3 col-sm-6">
+                  <label for="exampleFormControlInput3" class="form-label"><p class="color-label">Animes Sugeridos</p></label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck1">
+                    <label class="form-check-label">
+                      <p class="color-label">
+                        Naruto
+                      </p> 
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck2">
+                    <label class="form-check-label" for="flexCheckChecked">
+                      <p class="color-label">
+                        Inuyasha
+                      </p> 
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck3">
+                    <label class="form-check-label" for="flexCheckChecked">
+                      <p class="color-label">
+                        Dragon Ball Z
+                      </p> 
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-warning mb-5 centrado">
+                Enviar
+              </button>
+            </form>
+        
+        
+        <footer class="footer">
+            <div class="cotainer-fluid">
+                <div class="row-footer">
+                    <div><h6 class="txt-color p-4">Siguenos en redes sociales:</h6></div>
+                    <div><a href="https://www.instagram.com/"><img class="icons" src="img/instagram.svg" alt=""></a></div>
+                    <div><a href="https://www.facebook.com/"><img class="icons" src="img/facebook.svg" alt=""></a></div>
+                    <div><a href="https://www.facebook.com/"><img class="icons" src="img//facebook-messenger.svg" alt=""></a></div>
+                    <div><a href="https://www.spotify.com/"><img class="icons" src="img/spotify.svg" alt=""></a></div>
+                    <div><a href="https://www.tiktok.com/"><img class="icons" src="img/tiktok.svg" alt=""></a></div>
+                    <div><a href="https://www.snapchat.com/"><img class="icons" src="img/snapchat.svg" alt=""></a></div>
+                    <div><a href="https://www.whatsapp.com/"><img class="icons" src="img/whatsapp.svg" alt=""></a></div>
+                    <div><a href="https://www.twitter.com/"><img class="icons" src="img/twitter.svg" alt=""></a></div>
+                    <div><a href="https://www.youtube.com/"><img class="icons" src="img/youtube.svg" alt=""></a></div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

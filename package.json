@@ -1,0 +1,59 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "start": "concurrently \"npm run watch:scss\" \"npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+    "clean": "rimraf dist",
+    "imagemin": "imagemin img/* --out-dir dist/img",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin ovas.html -d dist --htmlmin -o dist/ovas.html && usemin naruto.html -d dist --htmlmin -o dist/naruto.html && usemin Formulario.html -d dist --htmlmin -o dist/Formulario.html",
+    "build": "npm run clean && npm run scss && npm run imagemin && npm run usemin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://osirisrodriguez@bitbucket.org/osirisrodriguez/guia-hoteles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/osirisrodriguez/guia-hoteles/issues"
+  },
+  "homepage": "https://bitbucket.org/osirisrodriguez/guia-hoteles#readme",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "cssmin": "^0.4.3",
+    "grunt": "^1.5.3",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-filerev": "^2.3.1",
+    "grunt-usemin": "^3.1.1",
+    "htmlmin": "^0.0.7",
+    "jit-grunt": "^0.10.0",
+    "lite-server": "^2.6.1",
+    "node-sass": "^8.0.0",
+    "onchange": "^7.1.0",
+    "rimraf": "^3.0.2",
+    "time-grunt": "^2.0.0",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1",
+    "open-iconic": "^1.1.1",
+    "popper": "^1.0.1",
+    "sass": "^1.56.1"
+  }
+}

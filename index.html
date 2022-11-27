@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Yeii-Anime</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/carusel.css">
+    </head>
+    <body>
+        <nav id="nav" class="navbar navbar-color fixed-top navbar-expand-md" aria-label="breadcrumb">
+            <div><img class="logo" src="img/4_estrellas.png" alt=""></div>
+            <a class="navbar-brand" href="index.html"><h2>Yeii-Anime</h2></a>
+            <button class="navbar-toggler m-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><p class="togle">III</p></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto breadcrumb">
+                  <li class="nav-item breadcrumb-item" aria-current="page">
+                    <a class="nav-link color-item m-3" href="./index.html">Series</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link color-item m-3" href="./ovas.html">Ovas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link color-item m-3" href="peliculas.html" tabindex="-1" aria-disabled="true">Películas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link color-item m-3" href="Formulario.html" tabindex="-1" aria-disabled="true">Déjanos tu comentario</a>
+                  </li>
+                </ul>
+                <form class="form-inline" style="display: flex;">
+                  <input class="form-control m-3" type="search" placeholder="Buscar..." aria-label="Search">
+                  <button class="btn btn-warning m-3" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://www.nintenderos.com/wp-content/uploads/2022/07/animes.jpg" class="d-block w-100 img-filtro" alt="...">
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1>Los animes que más te gustan</h1>
+                    <p>Tú nueva página de anime en español</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Ver ahora</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://assets3.thrillist.com/v1/image/2855064/1584x892/scale;webp=auto;jpeg_quality=60;progressive.jpg" class="d-block w-100 img-filtro" alt="...">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>los encuentras</h1>
+                    <p>Tú nueva página de anime en español</p>
+                    <p><a class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="btnRegistro">Regístrate</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.industriaanimacion.com/wp-content/uploads/2020/11/anime-.jpg" class="d-block w-100 img-filtro" alt="...">
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1>en Yii-Anime</h1>
+                    <p>Tú nueva página de anime en español.</p>
+                    <p><a class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2" href="#">Iniciar Sesión</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+        <div class="container-fluid">
+            <div class="jumbotron-1" style="margin-top: 30px;">
+                <h5 class="txt-color">Tus mejores animes aquí..</h5>
+            </div>
+        </div>
+        
+        <!-- Card's-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card estilo">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Naruto</h5>
+                    <p class="card-text">La obra narra la historia de un ninja huérfano adolescente llamado Naruto Uzumaki, cuyos padres murieron en el ataque del Zorro Demonio de Nueve Colas, y quien aspira a convertirse en Hokage (líder de su aldea).</p>
+                    <a type="button" class="btn btn-primary btn-tarjetas" href="naruto.html" data-toggle="tooltip" title="Disfruta las aventuras de Naruto.">Ver</a>
+                    </div>
+                </div>
+
+                <div class="card estilo">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Kimi_ni_Todoke_vol_1.jpg/220px-Kimi_ni_Todoke_vol_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Kimi ni Todoke</h5>
+                    <p class="card-text">Sawako Kuronuma, apodada 'Sadako' por sus compañeros dado su parecido a Sadako Yamamura, siempre se ha expresado mal, o mejor dicho no sabe cómo hacerlo.</p>
+                    <a type="button" class="btn btn-primary btn-tarjetas" data-toggle="tooltip" title="Enamorate de la dulce y timida kuronoma Sawako." >Ver</a>
+                    </div>
+                </div>
+
+                <div class="card estilo">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZjg1OWY2NzctNmYyMS00NmU5LWFmMWQtNDA5ZGI3MjMxNzU1XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Samurai X</h5>
+                    <p class="card-text">Himura Kenshin es el personaje principal que da nombre a la serie. Está basado en el personaje histórico de Kawakami Gensai y en otros personajes históricos como el rōnin Musashi Miyamoto.</p>
+                    <a type="button" class="btn btn-primary btn-tarjetas" data-toggle="tooltip" title="Acompaña a kenshin y sus amigos en una nueva era.">Ver</a>
+                    </div>
+                </div>
+
+                <div class="card estilo">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMGNmMWI4MGUtYmU0ZS00ZDkxLTgzMTAtZDU4YmQ1MDM3Y2IyXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Inuyasha</h5>
+                    <p class="card-text">Durante el período Sengoku, un medio demonio (hanyō) llamado InuYasha roba la Perla de Shikon (Shikon no esta en original; Joya de las 4 almas o la Esfera de los Cuatro Espíritus.</p>
+                    <a type="button" class="btn btn-primary btn-tarjetas" data-toggle="tooltip" title="Disfruta los viajes de Inuyasha junto a sus amigos, Kagome, Sango, Miroku y Shippou.">Ver</a>
+                    </div>
+                </div>
+
+                <div class="card estilo">
+                    <img src="img/Death Note.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Death Note</h5>
+                    <p class="card-text">La historia se centra en Light Yagami, un día, encuentra un cuaderno con poderes sobrenaturales llamado «Death Note», con el cual es capaz de matar personas si se escriben los nombres de estas en él.</p>
+                    <a type="button" class="btn btn-primary btn-tarjetas" data-toggle="tooltip" title="Sigue la historia de Kira y L, quién ganará al final.">Ver</a>
+                    </div>
+                </div>
+
+                <div class="card estilo">
+                    <img src="img/Ranma.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Ranma 1/2</h5>
+                    <p class="card-text">La historia gira en torno a Ranma Saotome, que fue entrenado en las artes marciales. Durante uno de sus entrenamientos, cae a un estanque encantado, que hace que se convierta en mujer cada vez que tiene contacto con el agua fría.</p>
+                    <a type="button" class="btn btn-primary btn-tarjetas" data-toggle="tooltip" title="Sigue la historia de ranma Saotome junto a su padre y su adorada prometida Akane Tendo.">Ver</a>
+                    </div>
+                </div>
+
+                <div class="card estilo">
+                    <img src="https://tvazteca.brightspotcdn.com/75/79/df5d6b844790915663e3b204c665/cuales-son-los-10-mejores-capitulos-de-dragon-ball-z-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Dragon Ball Z</h5>
+                    <p class="card-text">La continuación de Dragon Ball que relata las aventuras de Gokū en su etapa adulta.</p>
+                    <a type="button" class="btn btn-primary btn-tarjetas" data-toggle="tooltip" title="Disfruta las aventuras de Son Goku y sus amigos.">Ver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Registro de usuario</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Dirección de correo</label>
+                    <input type="email" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Teléfono</label>
+                    <input type="number" class="form-control" id="recipient-name">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Registrarse</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Registro de usuario</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Usuario</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="recipient-name">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Iniciar sesión</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+            <div class="cotainer-fluid">
+                <div class="row-footer">
+                    <div><h6 class="txt-color p-4">Siguenos en redes sociales:</h6></div>
+                    <div><a href="https://www.instagram.com/"><img class="icons" src="img/instagram.svg" alt=""></a></div>
+                    <div><a href="https://www.facebook.com/"><img class="icons" src="img/facebook.svg" alt=""></a></div>
+                    <div><a href="https://www.facebook.com/"><img class="icons" src="img//facebook-messenger.svg" alt=""></a></div>
+                    <div><a href="https://www.spotify.com/"><img class="icons" src="img/spotify.svg" alt=""></a></div>
+                    <div><a href="https://www.tiktok.com/"><img class="icons" src="img/tiktok.svg" alt=""></a></div>
+                    <div><a href="https://www.snapchat.com/"><img class="icons" src="img/snapchat.svg" alt=""></a></div>
+                    <div><a href="https://www.whatsapp.com/"><img class="icons" src="img/whatsapp.svg" alt=""></a></div>
+                    <div><a href="https://www.twitter.com/"><img class="icons" src="img/twitter.svg" alt=""></a></div>
+                    <div><a href="https://www.youtube.com/"><img class="icons" src="img/youtube.svg" alt=""></a></div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
